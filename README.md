@@ -32,5 +32,5 @@ Resources:
 
 ### State-Action Value Function: How good an action is at a particular state?
 
-![image](https://user-images.githubusercontent.com/31008838/124796804-91eada80-df1f-11eb-8a16-65154e2a4c53.png)
+![image](https://latex.codecogs.com/gif.latex?q_&space;\pi(s,a)&space;\doteq&space;\mathbb{E}_\pi[G_T&space;\mid&space;S_t&space;=&space;s,&space;A_t&space;=&space;a]&space;=&space;\mathbb{E}_\pi[\sum_{k=0}^{\infty}&space;\gamma^k&space;R_{t&plus;k&plus;1}&space;\mid&space;S_t=s,&space;A_t&space;=&space;a])
 
