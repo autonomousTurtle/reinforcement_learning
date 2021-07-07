@@ -18,6 +18,9 @@ Resources:
 
 ### Sum of Rewards with Discount Factor: 
 
+<!-- + is %2B, - is %2D -->
+<img src="https://render.githubusercontent.com/render/math?math=\G_t= R_t_%2B_1 %B R_t + 2 + R_t + 3 ... + R_T">
+
 ![image](https://user-images.githubusercontent.com/31008838/124796227-ea6da800-df1e-11eb-87c6-c1eb2c35143c.png)
 
 
