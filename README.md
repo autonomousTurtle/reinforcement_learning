@@ -27,7 +27,7 @@ Resources:
 ### State Value Function: How good is it to be in a given state?
 *in other words, the average reward that the agent will get starting from the current state under policy pi*
 
-![StateValueFunction](https://latex.codecogs.com/gif.latex?\large&space;v_{\pi&space;}(s)&space;\doteq&space;\mathbb{E}_{\pi}[G\displaystyle&space;_t&space;\mid&space;S_t&space;=&space;s]&space;=&space;\mathbb{E}_{\pi}&space;[\sum_{k=0}^{\infty}&space;\gamma^kR_{t&plus;k&plus;1}&space;\mid&space;S_t=s])
+![StateValueFunction](https://latex.codecogs.com/gif.latex?\large&space;v_{\pi&space;}(s)&space;\doteq&space;\mathbb{E}_{\pi}[G\displaystyle&space;_t&space;\mid&space;S_t&space;=&space;s]&space;=&space;\mathbb{E}_{\pi}&space;[\sum_{k=0}^{\infty}&space;\gamma^kR_{t&plus;k&plus;1}&space;\mid&space;S_t=s])  , for all  ![states](https://latex.codecogs.com/gif.latex?\inline&space;\large&space;s\epsilon&space;S)
 
 
 ### State-Action Value Function: How good an action is at a particular state?
