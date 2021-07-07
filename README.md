@@ -34,3 +34,6 @@ Resources:
 
 ![image](https://latex.codecogs.com/gif.latex?q_&space;\pi(s,a)&space;\doteq&space;\mathbb{E}_\pi[G_T&space;\mid&space;S_t&space;=&space;s,&space;A_t&space;=&space;a]&space;=&space;\mathbb{E}_\pi[\sum_{k=0}^{\infty}&space;\gamma^k&space;R_{t&plus;k&plus;1}&space;\mid&space;S_t=s,&space;A_t&space;=&space;a])
 
+### Optimum Policy Bellman Equation:
+![optimumpolicy](https://latex.codecogs.com/gif.latex?{\pi}'(s)\doteq&space;\textup{argmax}(a)&space;\mathbb{E}[R_{t&plus;1}&plus;\gamma&space;v_\pi(S_{t&plus;1})&space;\mid&space;S_t&space;=&space;s,&space;A_t&space;=&space;a])
+
