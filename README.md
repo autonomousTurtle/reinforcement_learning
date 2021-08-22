@@ -2,7 +2,7 @@
 
 
 # Reinforcement Learning
-Full repo to guided RL training scripts to learn dynamic programming, Q Learning, and Deep Q Learning
+A place to break rl algorithms and see what doesn't work, and maybe get lucky and find what does
 
 Resources: 
 
