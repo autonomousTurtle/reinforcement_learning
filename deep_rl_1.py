@@ -8,11 +8,14 @@ from tensorflow.keras.optimizers import Adam
 from collections import deque
 import time
 import numpy as np
+import random
+
 
 
 MODEL_NAME = "256x2"
 REPLAY_MEMORY_SIZE = 50_000 # can use _ in place of commas, sweet
-
+MINIBATCH_SIZE = 64
+MIN_REPLAY_MEMORY_SIZE
 
 
 class DQNAgent:
@@ -53,6 +56,12 @@ class DQNAgent:
         
     def get_qs(self, state, step):
         return self.model.predict(np.array(state).reshape(-1, *state.shape)/255)[0]
+
+    def train(self, terminal_state, step):
+        if len(self.replay_memory < MIN_REPLAY_MEMORY_SIZE):
+            return
+
+        minibatch = random.sample(self.replay_memory, MINIBATCH_SIZE)
 
     
 # Own Tensorboard class - written by 3rd party - tensorboard normally writes every fit, but we don't want that
